@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Exponentes y radicales</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1 class="respon-cel-title">
+                            Exponentes y radicales
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="container-main">
+        <!-- Exponentes enteros (negativos y positivos) -->
+        <div class="description-precalculo">
+            <!-- Definición del tema principal -->
+            <p>Los exponentes son números que indican cuántas veces se debe multiplicar una base por sí misma, mientras que los radicales representan el inverso de los exponentes, utilizados para expresar raíces de números. Ambos conceptos están relacionados, ya que una raíz puede interpretarse como un exponente fraccionario.</p>
+
+            <h1>Exponentes enteros (negativos y positivos)</h1>
+
+            <p>Un exponente indica cuántas veces se multiplica una base por sí misma.</p><br>
+            <p><strong>Exponente positivo:</strong> Multiplica la base por sí misma repetidamente.</p><br>
+            <p><strong>Exponente negativo:</strong> Toma el recíproco de la base y eleva al exponente positivo.</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Exponentes-enteros-(negativos-y-positivos-img1.webp" alt="" class="img-notacion-exponencial"> <br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                    <p class="operacion-Formula"><strong>Exponente positivo:</strong> 3<sup>4</sup> = 3 × 3 × 3 × 3 = 81</p>
+
+                <!-- Ejemplo 2 -->
+                    <p class="operacion-Formula"><strong>Exponente negativo:</strong> 5<sup>-2</sup> = 1 / (5 × 5) = 1/25</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tNer3cNu3iA?si=Z1QAFLSIvDfzbJcx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/enteros/potencia-de-numeros-enteros.html" target="_blank">Potencias de exponente de números enteros positivos</a>
+                    <a href="https://prezi.com/orat2kuepd-6/exponentes-de-numeros-enteros-positivos-y-negativos/" target="_blank">Exponentes de números enteros positivos y negativos</a>
+                    <a href="https://www.tutorela.es/matematicas/potencias-de-exponente-entero-negativo" target="_blank">Potencias de exponente entero negativo</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Exponentes Cero y Negativos -->
+        <div class="description-precalculo">
+            <h1>Exponentes Cero y Negativos</h1>
+
+            <p>El exponente cero establece que cualquier número (excepto el cero) elevado a la potencia de 0 es igual a 1. Por otro lado, un exponente negativo indica que debemos tomar el recíproco de la base elevada al exponente positivo correspondiente.</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/img-Expo-Neg-Posi.webp" alt="" class="img-Ex-Ne-Po">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <h2><strong>Ejemplo:</strong> 7<sup>0</sup></h2>
+                    <p class="operacion-Formula">7<sup>0</sup> = 1</p>
+                <p>Cualquier número elevado a la potencia de 0 (excepto el 0) es igual a 1.</p>
+
+                <h2><strong>Ejemplo:</strong> 4<sup>-3</sup></h2>
+                    <p class="operacion-Formula">
+                        4<sup>-3</sup> = 1/4<sup>3</sup> <br>
+                        4<sup>3</sup> = 4 × 4 × 4 = 64 <br>
+                        1/64
+                    </p>
+                <p>Un exponente negativo significa que tomamos el recíproco de la base elevada al exponente positivo correspondiente.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BNBxAyXy82g?si=jSV4ktSeeF-4kwUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.ck12.org/book/ck-12-conceptos-de-%c3%81lgebra-ii-con-trigonometr%c3%ada-en-espa%c3%b1ol/section/6.2/" target="_blank">Exponentes Negativos y Cero</a>
+                    <a href="https://www.mamutmatematicas.com/lecciones/exponente_cero_negativo.php" target="_blank">El exponente cero y el exponente negativo</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Reglas para Trabajar con Exponentes -->
+        <div class="description-precalculo">
+            <h1>Reglas para Trabajar con Exponentes</h1>
+
+            <p>Las reglas de los exponentes permiten simplificar expresiones algebraicas que contienen potencias. Las principales incluyen la suma de exponentes cuando se multiplican potencias con la misma base y la resta de exponentes cuando se dividen.</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/reglas-expone.webp" alt="" class="regla-Expone-img">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Producto de Potencias con la Misma Base</h2>
+                <p><strong>Ejemplo: </strong>3<sup>2</sup> × 3<sup>4</sup></p>
+                    <p class="operacion-Formula">
+                        3<sup>2</sup> × 3<sup>4</sup> = 3<sup>2+4</sup> = 3<sup>6</sup><br>
+                        3<sup>6</sup> = 3 × 3 × 3 × 3 × 3 × 3 = 729<br>
+                    </p>
+
+                <p>Si las bases son iguales, sumamos los exponentes al multiplicar.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Cociente de Potencias con la Misma Base</h2>
+                <p><strong>Ejemplo: </strong>5<sup>6</sup> / 5<sup>2</sup></p>
+                    <p class="operacion-Formula">
+                        5<sup>6</sup> / 5<sup>2</sup> = 5<sup>6-2</sup> = 5<sup>4</sup><br>
+                        5<sup>4</sup> = 5 × 5 × 5 × 5 = 625<br>
+                    </p>
+
+                    <p>Si las bases son iguales, restamos los exponentes al dividir.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ainnlQ_Owq8?si=nwvL411E1bAdgFq6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://content.nroc.org/Algebra.HTML5/U07L1T1/TopicText/es/text.html#:~:text=Las%20reglas%20b%C3%A1sicas%20de%20los,que%20est%C3%A1%20dentro%20del%20par%C3%A9ntesis.&text=Para%20cualquier%20n%C3%BAmero%20distinto%20de%20cero%20n%2C%20n0%20%3D%201" target="_blank">Más Reglas de los Exponentes</a>
+                    <a href="https://www.neurochispas.com/wiki/reglas-de-los-exponentes/" target="_blank">Reglas de los Exponentes con Ejemplos</a>
+                    <a href="https://platzi.com/clases/1449-algebra/16203-leyes-de-los-exponentes-multiplicacion-y-division/" target="_blank">Leyes de los exponentes: Multiplicación y División</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Leyes de Exponentes -->
+        <div class="description-precalculo">
+            <h1>Leyes de Exponentes</h1>
+
+            <p>Las leyes de exponentes son un conjunto de reglas que permiten simplificar operaciones con potencias, útiles en expresiones algebraicas. Entre estas, la suma de exponentes se aplica al multiplicar potencias con la misma base, y la resta de exponentes se aplica al dividir.</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/leyes-exponentes.webp" alt="">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Producto de Potencias con la Misma Base</h2>
+                <p><strong>Ejemplo:</strong> 2<sup>3</sup> × 2<sup>4</sup></p>
+                    <p class="operacion-Formula">
+                        2<sup>3</sup> × 2<sup>4</sup> = 2<sup>3+4</sup> = 2<sup>7</sup><br>
+                        2<sup>7</sup> = 2 × 2 × 2 × 2 × 2 × 2 × 2 = 128
+                    </p>
+                <p>Si las bases son iguales, sumamos los exponentes al multiplicar.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Cociente de Potencias con la Misma Base</h2>
+                <p><strong>Ejemplo:</strong> 10<sup>5</sup> / 10<sup>2</sup></p>
+                    <p class="operacion-Formula">
+                        10<sup>5</sup> / 10<sup>2</sup> = 10<sup>5-2</sup> = 10<sup>3</sup><br>
+                        10<sup>3</sup> = 10 × 10 × 10 = 1000
+                    </p>
+
+                    <p>Si las bases son iguales, restamos los exponentes al dividir.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1piOcT-__jU?si=a7a5oyWOa-xEH6Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.significados.com/leyes-de-los-exponentes/" target="_blank">Leyes de los exponentes</a>
+                    <a href="https://www.todamateria.com/leyes-de-los-exponentes/" target="_blank">Leyes de los exponentes</a>
+                    <a href="https://kcm.nku.edu/tutorials/leyes_de_exponentes/explaws_spa.xhtml" target="_blank">Leyes de los Exponentes</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Notación científica -->
+        <div class="description-precalculo">
+            <h1>Notación científica</h1>
+
+            <p>La notación científica es una forma compacta de expresar números muy grandes o muy pequeños, escribiendo un número entre 1 y 10 multiplicado por una potencia de 10. El exponente indica cuántas posiciones se mueve el punto decimal: si es positivo, el número es grande; si es negativo, es pequeño.</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/notacion-cientifica.webp" alt="" class="img-not-cientifica">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+
+                <!-- Ejemplo 1  -->
+                <h2>Número Grande</h2>
+                <p><strong>Ejemplo:</strong> 5,300,000 en notación científica</p>
+                <p class="operacion-Formula">
+                    Mueve el punto decimal 6 posiciones a la izquierda.<br>
+                    Coeficiente: 5.3, exponente: 6.
+                </p>
+                <p><strong>Resultado:</strong> 5,300,000 = 5.3 × 10<sup>6</sup></p>
+                <p>Se mueve el punto decimal hacia la izquierda y el exponente es positivo.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Número Pequeño</h2>
+                <p><strong>Ejemplo:</strong> 0.00042 en notación científica</p>
+
+                <p class="operacion-Formula">
+                    Mueve el punto decimal 4 posiciones a la derecha.<br>
+                    Coeficiente: 4.2, exponente: -4.
+                </p>
+
+                <p><strong>Resultado:</strong> 0.00042 = 4.2 × 10<sup>-4</sup></p>
+                <p>Se mueve el punto decimal hacia la derecha y el exponente es negativo.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qjX4wKUoK7E?si=XvcFKkiSUaGrdILo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_cient%C3%ADfica" target="_blank">Notación científica</a>
+                    <a href="https://www.smartick.es/blog/matematicas/numeros-enteros/notacion-cientifica/" target="_blank">Qué es y para qué sirve la notación científica</a>
+                    <a href="https://es.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation/v/scientific-notation" target="_blank">Ejemplos de notación científica</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Radicales -->
+        <div class="description-precalculo">
+            <h1>Radicales</h1>
+
+            <p>Un radical es una expresión matemática que representa la raíz de un número. El símbolo es √, y la raíz cuadrada es la más común, aunque también existen raíces cúbicas y otras. El número bajo el símbolo es el radicando, y el índice del radical indica qué tipo de raíz se está calculando. Si no se especifica el índice, se asume que es una raíz cuadrada.</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Radicales-1.webp" alt="" class="img-radic"><br>
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Radicales-2.webp" alt="" class="img-radic"><br>
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Radicales-3.webp" alt=""><br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Raíz Cuadrada</h2>
+
+                <p class="operacion-Formula">
+                    Se busca la raíz cuadrada de 16.<br>
+                    √16 = 4
+                </p>
+
+                <p>La raíz cuadrada de 16 es 4, porque 4 × 4 = 16.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Raíz Cúbica</h2>
+
+                <p class="operacion-Formula">
+                    Se busca la raíz cúbica de 27<br>
+                    √[3]27 = 3
+                </p>
+
+                <p>La raíz cúbica de 27 es 3, porque 3 × 3 × 3 = 27.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2HachLBuoZo?si=Eiqnj88RQHDQ_IZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/reales/suma-de-radicales.html" target="_blank">Radicales, sus propiedades y operaciones con radicales</a>
+                    <a href="https://www.studysmarter.es/resumenes/matematicas/analisis-matematico/radicales/" target="_blank">Radicales</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Exponentes Racionales -->
+        <div class="description-precalculo">
+            <h1 class="multi-div">Exponentes Racionales</h1>
+
+            <p>Los exponentes racionales son aquellos que se expresan como una fracción. El numerador de la fracción indica la potencia, y el denominador indica la raíz. Esto permite calcular potencias y raíces de manera conjunta en una expresión matemática.</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Exponentes-racionales-1.webp" alt=""><br>
+            <img src="../assets/img/Fundamentos-img/Exponentes-radicales/Exponentes-racionales-2.webp" alt="" class="img-expo-racion">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Exponente Racional Simpl</h2>
+
+                <p class="operacion-Formula">
+                    Se tiene la expresión \( 16^{1/2} \)<br>
+                    El denominador 2 indica que debemos calcular la raíz cuadrada de 16 <br>
+                    La raíz cuadrada de 16 es 4
+                </p>
+
+                <p>El denominador 2 indica la raíz cuadrada, y el resultado es 4, porque \( 4 \times 4 = 16 \)</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Exponente Racional Compuesto</h2>
+
+                <p class="operacion-Formula">
+                    Se tiene la expresión \( 8^{2/3} \)<br>
+                    El denominador 3 indica que primero debemos calcular la raíz cúbica de 8 <br>
+                    La raíz cúbica de 8 es 2 <br>
+                    Luego, elevamos este resultado al numerador 2. \( 2^2 = 4 \)
+                </p>
+
+                <p>Primero calculamos la raíz cúbica de 8 (denominador) y luego elevamos al cuadrado (numerador).</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fe6gaF6lCqc?si=6Fz9sbQ_ucnbne7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://content.nroc.org/DevelopmentalMath.HTML5/U16L1T3/TopicText/es/textbook.html" target="_blank">Exponentes racionales</a>
+                    <a href="https://espanol.libretexts.org/Matematicas/Algebra/Algebra_inicial/08%3A_Expresiones_y_ecuaciones_radicales/8.05%3A_Exponentes_racionales" target="_blank">Exponentes racionales</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Racionalización del denominador -->
+        <div class="description-precalculo">
+            <h1 class="title-racional-denomi">Racionalización del denominador</h1>
+
+            <p>La racionalización del denominador es un proceso que se utiliza para eliminar raíces (o radicales) del denominador de una fracción. <br>
+            El objetivo es convertir el denominador en un número racional, ya que es común que, en matemáticas, se prefiera trabajar con denominadores racionales.</p><br>
+
+            <h2>Métodos de racionalización</h2>
+
+            <p>Para una raíz simple en el denominador: Multiplicamos tanto el numerador como el denominador por el mismo radical.<br>
+                \[
+                \frac{a}{\sqrt{b}} \cdot \frac{\sqrt{b}}{\sqrt{b}} = \frac{a \sqrt{b}}{b}
+                \]
+            </p>
+
+            <p>
+            Para una expresión con suma o resta de raíces en el denominador: Utilizamos el conjugado del denominador para eliminar las raíces.
+            <br>
+            </p>
+            <p class="form-racio-denomi">
+            \[
+            \frac{a}{\sqrt{b} + \sqrt{c}} \cdot \frac{\sqrt{b} - \sqrt{c}}{\sqrt{b} - \sqrt{c}} = \frac{a (\sqrt{b} - \sqrt{c})}{(\sqrt{b})^2 - (\sqrt{c})^2}
+            \]
+            El producto de una expresión y su conjugado elimina los radicales debido a la diferencia de cuadrados.
+            </p>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                <h2>Racionalización de una raíz simple: \( \frac{5}{\sqrt{3}} \)</h2>
+
+                    <p class="operacion-Formula">
+                        Multiplicamos el numerador y el denominador por \( \sqrt{3} \) para eliminar la raíz del denominador. <br>
+
+                        \[
+                        \frac{5}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \frac{5 \sqrt{3}}{3}
+                        \] <br>
+
+                        \( \frac{5}{\sqrt{3}} = \frac{5 \sqrt{3}}{3} \)
+                    </p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Racionalización con conjugado: \( \frac{4}{\sqrt{2} + \sqrt{5}} \)</h2>
+
+                <p class="operacion-Formula">
+                    Multiplicamos el numerador y el denominador por el conjugado del denominador, que es \( \sqrt{2} - \sqrt{5} \)<br>
+
+                    <p class="form-racio-denomi">
+                    \[
+                    \frac{4}{\sqrt{2} + \sqrt{5}} \cdot \frac{\sqrt{2} - \sqrt{5}}{\sqrt{2} - \sqrt{5}} = \frac{4 (\sqrt{2} - \sqrt{5})}{(\sqrt{2})^2 - (\sqrt{5})^2}
+                    \]</p> <br>
+
+                    Simplificamos el denominador aplicando la diferencia de cuadrados: \( (\sqrt{2})^2 = 2 \) y \( (\sqrt{5})^2 = 5 \), por lo tanto, \( 2 - 5 = -3 \)<br>
+
+                    El resultado es
+                    \[
+                    \frac{4 (\sqrt{2} - \sqrt{5})}{-3} = \frac{4\sqrt{2} - 4\sqrt{5}}{-3}
+                    \] <br>
+
+                    Resultado: \( \frac{4}{\sqrt{2} + \sqrt{5}} = \frac{4 \sqrt{2} - 4 \sqrt{5}}{-3} \)
+                </p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9YT83Uzl6nw?si=kxaUiPJ3ygDB59y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.fio.unicen.edu.ar/usuario/boucigue/apuntes/irracionales_racionalizacion.pdf" target="_blank">Radicación – Operaciones con irracionales – Racionalización de denominadores
+                    </a>
+                    <a href="https://espanol.libretexts.org/Matematicas/Matematicas_Aplicadas/Matematicas_del_Desarrollo_(NROC)/16%3A_Expresiones_radicales_y_ecuaciones_cuadr%C3%A1ticas/16.02%3A_Operaciones_con_Radicales/16.2.04%3A_Racionalizaci%C3%B3n_de_denominadores" target="_blank">Racionalización de denominadores</a>
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/reales/racionalizacion-de-radicales.html" target="_blank">Racionalización de radicales</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

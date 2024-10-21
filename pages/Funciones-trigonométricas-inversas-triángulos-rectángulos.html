@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Funciones trigonométricas inversas y triángulos rectángulos</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1 class="respon-cel-title-small">
+                            Funciones trigonométricas inversas y triángulos rectángulos
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="container-main">
+        <!-- Funciones Trigonométricas Inversas -->
+        <div class="description-precalculo">
+
+            <p>En matemáticas, las <strong>funciones trigonométricas inversas</strong> (ocasionalmente también llamadas <em>funciones arco</em>, <em>funciones antitrigonométricas</em> o <em>funciones ciclométricas</em>) son las funciones trigonométricas con dominios adecuadamente restringidos. Específicamente, son las inversas de las funciones seno, coseno, tangente, cosecante, secante y cotangente, y se utilizan para obtener un ángulo a partir de cualquiera de las relaciones trigonométricas angulares. Estas funciones se utilizan ampliamente en ingeniería, navegación, física y geometría.</p><br>
+
+            <h2>Función Arcoseno</h2>
+            <p>El arcoseno es la función inversa del seno de un ángulo. El arcoseno de un valor, denotado por \(\arcsin(x)\), corresponde al ángulo cuyo seno es \(x\).</p><br>
+            <p><strong>Definición:</strong> \(\arcsin(x)\) tal que \( \sin(\theta) = x \), donde \( -1 \leq x \leq 1 \).</p>
+            <p><strong>Dominio:</strong> \( [-1, 1] \)</p>
+            <p><strong>Imagen:</strong> \( [-\frac{\pi}{2}, \frac{\pi}{2}] \)</p>
+            <p><strong>Propiedades:</strong> Continua y creciente en su dominio.</p><br>
+
+            <img src="../assets/img/Funciones-trigonométricas-método-del-triángulo-rectángulo/Funciones-trigonométricas-inversas-triángulos-rectángulos/arcocoseno.webp" alt=""><br>
+
+            <h2>Función Arcocoseno</h2>
+            <p>El arcocoseno está definido como la función inversa del coseno de un ángulo. El arcocoseno de un valor, denotado por \(\arccos(x)\), corresponde al ángulo cuyo coseno es \(x\).</p><br>
+
+            <p><strong>Definición:</strong> \(\arccos(x)\) tal que \( \cos(\theta) = x \), donde \( -1 \leq x \leq 1 \).</p>
+            <p><strong>Dominio:</strong> \( [-1, 1] \)</p>
+            <p><strong>Imagen:</strong> \( [0, \pi] \)</p>
+            <p><strong>Propiedades:</strong> Continua y decreciente en su dominio.</p><br>
+
+            <img src="../assets/img/Funciones-trigonométricas-método-del-triángulo-rectángulo/Funciones-trigonométricas-inversas-triángulos-rectángulos/Función-arcoseno.webp" alt="">
+
+            <h2>Función Arcotangente</h2>
+            <p>La función arcotangente es la función inversa de la tangente de un ángulo. El arcotangente de un valor, denotado por \(\arctan(x)\), corresponde al ángulo cuya tangente es \(x\).</p><br>
+            <p><strong>Definición:</strong> \(\arctan(x)\) tal que \( \tan(\theta) = x \), donde \( x \in \mathbb{R} \).</p>
+            <p><strong>Dominio:</strong> \( \mathbb{R} \) (todos los números reales)</p>
+            <p><strong>Imagen:</strong> \( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \)</p>
+            <p><strong>Propiedades:</strong> Continua y decreciente en su dominio.</p><br><br>
+
+            <img src="../assets/img/Funciones-trigonométricas-método-del-triángulo-rectángulo/Funciones-trigonométricas-inversas-triángulos-rectángulos/arcotangente.webp" alt="" class="fun-max-min"><br><br>
+
+            <div class="container-Ejemplos">
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZqtzU6Lv8Js?si=0XLAqnQ4tdD8o-2S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Triángulos Rectángulos -->
+        <div class="description-precalculo">
+            <h1>Triángulos Rectángulos</h1>
+
+            <p>Un <strong>triángulo rectángulo</strong> es un triángulo que posee un ángulo de 90°. Es decir, es un polígono que consta de tres lados, tres vértices y tres ángulos, y uno de estos ángulos es recto.</p>
+
+            <p>Cada uno de los lados de esta figura geométrica recibe un nombre:</p>
+            <ul>
+                <li><strong>Catetos:</strong> Son los dos lados que forman el ángulo recto.</li>
+                <li><strong>Hipotenusa:</strong> Es el lado de mayor tamaño y se encuentra opuesto al vértice del ángulo recto.</li>
+            </ul>
+
+            <p>Una de las propiedades de los triángulos es que la suma de todos sus ángulos internos es de \(180^\circ\). Si el ángulo recto mide \(90^\circ\), los otros dos ángulos deben sumar los \(90^\circ\) restantes, por lo que necesariamente son ángulos agudos (inferiores a \(90^\circ\)).</p>
+
+            <p>Cuando los dos catetos tienen la misma medida, los ángulos del triángulo rectángulo son \(90^\circ\), \(45^\circ\) y \(45^\circ\), lo que da un total de \(180^\circ\).</p>
+
+            <p>Si los catetos tienen diferentes medidas, los ángulos agudos varían, pero nunca superan los \(90^\circ\).</p>
+
+            <h2>Perímetro y Área de un Triángulo Rectángulo</h2>
+            <p><strong>Perímetro:</strong> El perímetro de un triángulo rectángulo se calcula sumando las longitudes de todos sus lados.</p>
+
+            <p><strong>Área:</strong> El área de un triángulo rectángulo se calcula usando la fórmula:</p>
+            <p>\[
+            \text{Área} = \frac{1}{2} \times \text{base} \times \text{altura}
+            \]
+            En este tipo de triángulo, la base y la altura son los catetos, es decir, los lados que forman el ángulo recto.</p>
+
+            <h2>Ejemplo</h2>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo -->
+                <p>Fuente: Enciclopedia</p><br>
+                <img src="../assets/img/Funciones-trigonométricas-método-del-triángulo-rectángulo/Funciones-trigonométricas-inversas-triángulos-rectángulos/Encicloped.webp" alt="" class="fun-max-min"><br>
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eTEBvBIz8Ok?si=VQkzPuF2AcP_eOyu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

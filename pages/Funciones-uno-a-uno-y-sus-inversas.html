@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Funciones uno a uno y sus inversas</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1 class="respon-cel-title">
+                            Funciones uno a uno y sus inversas
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="container-main">
+        <!-- Funciones uno a uno y sus inversas -->
+        <div class="description-precalculo">
+
+            <h2>La inversa de una función</h2>
+            <p>La inversa de una función es una operación que toma el resultado de la función original y genera el valor de entrada correspondiente. En otras palabras, la inversa "reversa" o deshace la acción realizada por la función. No todas las funciones tienen una inversa; aquellas que sí la tienen se conocen como funciones inyectivas o uno a uno.</p><br>
+
+            <h2>Definición de una Función Uno a Uno</h2>
+            <p>Una función uno a uno, o inyectiva, es aquella en la que cada valor de salida (imagen) está asociado con un único valor de entrada (preimagen). Es decir, no hay dos elementos diferentes en el dominio (entrada) que se asignen al mismo valor en el codominio (salida). En términos simples, si f(a) = f(b), entonces a = b; lo que significa que no se repiten valores en la salida. Esto garantiza que la función tenga una inversa.</p><br>
+
+            <h2>Prueba de la Recta Horizontal</h2>
+            <p>Una función es uno a uno si y solo si no hay una recta horizontal que cruce su gráfica más de una vez.</p><br>
+
+            <h2>Determinar si Una Función es Uno a Uno</h2>
+
+            <p>Vamos a usar un ejemplo sencillo para determinar si una función es uno a uno.</p><br>
+
+            <p>Consideremos la función \( f(x) = 2x + 3 \).</p><br>
+
+            <h3>Paso 1: Supongamos que \( f(a) = f(b) \)</h3>
+            <p>Para verificar si es uno a uno, asumimos que dos entradas distintas, \( a \) y \( b \), tienen la misma salida:</p><br>
+
+            <p>\( f(a) = f(b) \)</p><br>
+
+            <p>Sustituyendo la fórmula de la función:</p><br>
+
+            <p>\( 2a + 3 = 2b + 3 \)</p><br>
+
+            <h3>Paso 2: Simplificamos la ecuación</h3>
+            <p>Restamos 3 de ambos lados:</p><br>
+
+            <p>\( 2a = 2b \)</p><br>
+
+            <p>Dividimos entre 2:</p><br>
+
+            <p>\( a = b \)</p><br>
+
+            <h3>Conclusión</h3>
+            <p>Como \( a = b \), hemos demostrado que la única manera en que dos valores de salida son iguales es si las entradas también son iguales. Esto significa que la función \( f(x) = 2x + 3 \) es uno a uno, ya que no hay dos entradas diferentes que produzcan la misma salida.</p><br>
+
+            <h3>Contraejemplo: Función que no es Uno a Uno</h3>
+            <p>Consideremos la función \( f(x) = x^2 \).</p><br>
+
+            <p>Supongamos \( f(a) = f(b) \), lo que nos da:</p><br>
+
+            <p>\( a^2 = b^2 \)</p><br>
+
+            <p>Esto puede suceder cuando \( a = b \) o cuando \( a = -b \). Entonces, en este caso, dos entradas diferentes (como 2 y -2) pueden dar la misma salida (4), por lo que esta función no es uno a uno.</p><br>
+
+            <h2>Definición de la Inversa de Una Función</h2>
+            <p>Sea \( f \) una función uno a uno con dominio \( A \) y rango \( B \). Entonces su función inversa \( f^{-1} \) tiene dominio \( B \) y rango \( A \) y está definida por:</p><br>
+
+            <p>
+            \[
+            f^{-1}(y) = x \iff f(x) = y
+            \]
+            </p><br>
+
+            <p>para cualquier \( y \) en \( B \).</p><br>
+
+            <h2>Cómo Hallar la Inversa de Una Función Uno a Uno</h2>
+            <p>Para hallar la inversa de una función uno a uno, sigues un proceso de pasos para despejar la variable original en términos de la nueva variable (generalmente \( y \)). Aquí te explico cómo hacerlo con un ejemplo:</p><br>
+
+            <h3>Ejemplo: Hallar la inversa de \( f(x) = 2x + 3 \)</h3>
+
+            <h4>Paso 1: Escribir la función como \( y = f(x) \)</h4>
+            <p>Escribimos la función en términos de \( y \):</p><br>
+
+            <p>\( y = 2x + 3 \)</p><br>
+
+            <h4>Paso 2: Intercambiar \( x \) y \( y \)</h4>
+            <p>Para encontrar la inversa, intercambiamos los roles de \( x \) y \( y \), ya que la función inversa toma una salida \( y \) y regresa al valor de entrada original \( x \):</p><br>
+
+            <p>\( x = 2y + 3 \)</p><br>
+
+            <h4>Paso 3: Despejar \( y \)</h4>
+            <p>Despejamos \( y \) en términos de \( x \):</p><br>
+
+            <p>1. Restamos 3 a ambos lados:</p><br>
+
+            <p>\( x - 3 = 2y \)</p><br>
+
+            <p>2. Dividimos entre 2:</p><br>
+
+            <p>\( y = \frac{x - 3}{2} \)</p><br>
+
+            <h4>Paso 4: Escribir la función inversa</h4>
+            <p>Ahora que despejamos \( y \), la función inversa es:</p><br>
+
+            <p>\( f^{-1}(x) = \frac{x - 3}{2} \)</p><br>
+
+            <h4>Paso 5: Verificación</h4>
+            <p>Para asegurarte de que realmente has encontrado la inversa, puedes componer la función original con la inversa y viceversa:</p><br>
+
+            <p>\( f(f^{-1}(x)) = x \)</p><br>
+
+            <p>\( f^{-1}(f(x)) = x \)</p><br>
+
+            <p>Ambas operaciones te devuelven \( x \), lo que confirma que la función inversa es correcta.</p><br>
+
+            <h3>Resumen del método para hallar la inversa de una función uno a uno:</h3>
+
+            <p>Escribe la función como \( y = f(x) \).</p><br>
+            <p>Intercambia \( x \) y \( y \).</p><br>
+            <p>Despeja \( y \) en términos de \( x \).</p><br>
+            <p>Escribe la nueva función \( f^{-1}(x) \).</p><br>
+            <p>Verifica que \( f(f^{-1}(x)) = x \) y \( f^{-1}(f(x)) = x \).</p><br>
+
+            <p>Este procedimiento te ayuda a encontrar la inversa de cualquier función uno a uno.</p>
+
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

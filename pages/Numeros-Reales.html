@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Números Reales</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1>
+                            Números reales
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="container-main">
+        <!-- Números naturales -->
+        <div class="description-precalculo">
+            <p>Los números reales son aquellos que incluyen tanto los números racionales (fracciones y números enteros) como los irracionales (números con decimales infinitos no periódicos, como √2 o π). Representan cualquier número en la recta numérica y se denotan con el símbolo ℝ.</p>
+
+            <h1>Números naturales</h1>
+
+            <p>Los números naturales son los que usamos para contar y ordenar, como 1, 2, 3, 4, etc. Se denotan por ℕ, e incluyen el 0 según la convención. Tienen propiedades como cerradura (suma y multiplicación de dos números naturales dan un natural), conmutatividad, asociatividad y el uso de elementos neutros (0 en la suma y 1 en la multiplicación). Los números naturales también incluyen primos (solo divisibles por 1 y ellos mismos) y compuestos (con más divisores).</p>
+            <br>
+
+            <h1>Ejemplos</h1>
+
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                <h2>Ejemplo 1: Propiedad de Cerradura</h2>
+                    <p class="operacion-Formula">5 + 3 = 8</p>
+                <p>Al sumar dos números naturales, el resultado es otro número natural, lo que demuestra la propiedad de cerradura.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Sucesor</h2>
+                <p>Sucesor de 7</p>
+                    <p class="operacion-Formula">8</p>
+                <p>El número que sigue a 7 en la secuencia de números naturales es 8, lo que sigue la regla del sucesor en los axiomas de Peano.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe class="video-temas" width="560" height="315" src="https://www.youtube.com/embed/hd5qnZfGO1c?si=DfIWw8bUnLJnx522" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/naturales/numeros-naturales.html#tema_definicion-de-los-numeros-naturales" target="_blank">El conjunto de los números naturales</a>
+                    <a href="https://concepto.de/numeros-naturales/" target="_blank">Números naturales</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Números enteros -->
+        <div class="description-precalculo">
+            <h1>Números enteros</h1>
+
+            <p>Los números enteros incluyen tanto los números positivos como los negativos, además del cero, y se representan como ℤ. El conjunto de números enteros es {..., -3, -2, -1, 0, 1, 2, 3, ...}.</p>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <h2>Ejemplo 1: Operación con Enteros</h2>
+                    <p class="operacion-Formula">7 + (-4) = 3</p>
+                <p>Al sumar un número positivo con uno negativo, el resultado es otro número entero, en este caso 3.</p>
+
+                <h2>Ejemplo 2: Valor Absoluto</h2>
+                    <p class="operacion-Formula">|−6| = 6</p>
+                <p>El valor absoluto es la distancia de un número al 0 en la recta numérica, sin importar el signo del número.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe class="video-temas" width="560" height="315" src="https://www.youtube.com/embed/5HE66809NYI?si=99ianUxMdLNDNNl-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://concepto.de/numeros-enteros/" target="_blank">Números enteros</a>
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/enteros/numeros-enteros-2.html" target="_blank">Números enteros</a>
+                    <a href="https://www.kumon.com.co/blog/-que-son-los-numeros-enteros-/" target="_blank">¿Cuáles son los números enteros?</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Números racionales -->
+        <div class="description-precalculo">
+            <h1>Números Racionales</h1>
+
+            <p>Los números racionales son aquellos que se pueden expresar como fracciones de dos enteros, donde el denominador no es cero. Se denotan por ℚ e incluyen fracciones, enteros, y decimales finitos o periódicos. Ejemplos son 1/2, -3/4, y 7 (que puede escribirse como 7/1).</p>
+            <br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Suma de dos números racionales</h2>
+                <p>Resolver (3/4) + (2/3).</p>
+                    <p class="operacion-Formula">
+                        (3/4) = (3 × 3) / (4 × 3) = 9/12 <br>
+                        (2/3) = (2 × 4) / (3 × 4) = 8/12 <br>
+                        9/12 + 8/12 = (9 + 8) / 12 = 17/12 <br>
+                        </p>
+                <p>Se encuentra el denominador común (12), se ajustan las fracciones, se suman los numeradores (9/12 + 8/12), y se simplifica si es necesario.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Multiplicación de dos números racionales</h2>
+                <p>Resolver (-2/5) × (3/7).</p>
+                    <p class="operacion-Formula">
+                        (-2) × 3 = -6 <br>
+                        5 × 7 = 35 <br>
+                        (-2/5) × (3/7) = -6/35
+                    </p>
+
+                    <p>Se multiplican los numeradores (-2 × 3 = -6) y los denominadores (5 × 7 = 35), resultando en -6/35, que es irreducible.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ql3lLSwsr98?si=eeWcg1-2vdzaJNUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_racional" target="_blank">Número racional</a>
+                    <a href="https://www.smartick.es/blog/matematicas/numeros-enteros/numeros-racionales-propiedades/" target="_blank">Conoce los números racionales y sus propiedades</a>
+                    <a href="https://economipedia.com/definiciones/numeros-racionales.html" target="_blank">Números racionales: Definición, fórmula y ejemplo</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Números irracionales -->
+        <div class="description-precalculo">
+            <h1>Números Irracionales</h1>
+
+            <p>Los números irracionales son aquellos que no pueden expresarse como una fracción de dos enteros, y su representación decimal es infinita y no periódica. Ejemplos comunes incluyen √2, π y e.</p>
+            <br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Raíz Cuadrada Irracional</h2>
+                <p>Resolver √2.</p>
+                    <p class="operacion-Formula">
+                        √2 <br>
+                        Aproximación: 1.414 <br>
+                        1.414 + 3 = 4.414
+                    </p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Suma de un número racional e irracional</h2>
+                <p>Resolver 3 + √3.</p>
+                    <p class="operacion-Formula">
+                        √3 <br>
+                        Aproximación: 1.732 <br>
+                        3 + 1.732 = 4.732
+                    </p>
+
+                    <p>En estos ejemplos, se trabajó con números irracionales utilizando aproximaciones decimales para realizar las operaciones. Se sumaron los valores aproximados para obtener resultados que ilustran cómo se puede manejar la suma de números racionales e irracionales.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1yGBocOCki0?si=5fUsOHbSLAQZQH86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://economipedia.com/definiciones/numeros-irracionales.html" target="_blank">Números irracionales: Qué son, tipos y ejemplos</a>
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/reales/numeros-irracionales.html" target="_blank">Números irracionales</a>
+                    <a href="https://www.significados.com/numeros-irracionales/" target="_blank">Números irracionales</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Propiedades de los Números Reales -->
+        <div class="description-precalculo">
+            <h1>Propiedades de los Números Reales</h1>
+
+            <p>Los números reales incluyen tanto números racionales como irracionales y se representan como ℝ. Las propiedades de los números reales son fundamentales para las operaciones aritméticas. Estas son:</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/PropiedadesNumeroReales.webp" alt="">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Aplicación de la propiedad distributiva</h2>
+                <p>Resolver: 3 × (4 + 5)</p>
+                <p class="operacion-Formula">
+                    3 × (4 + 5) = (3 × 4) + (3 × 5)<br>
+                    3 × 4 = 12<br>
+                    3 × 5 = 15 <br>
+                    12 + 15 = 27
+                </p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Aplicación de la propiedad asociativa en la suma</h2>
+                <p>Resolver: (7 + 2) + 5</p>
+
+                <p class="operacion-Formula">
+                    (7 + 2) + 5 = 7 + (2 + 5)<br>
+                    2 + 5 = 7<br>
+                    7 + 7 = 14
+                </p>
+
+                <p>Se aplicaron las propiedades de los números reales para realizar las operaciones. En el primer ejemplo se usó la propiedad distributiva y en el segundo la propiedad asociativa, mostrando que el orden y agrupación de los números no alteran el resultado.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yiDbXvJ3y-w?si=EWpA-ns3-H-PVwJd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://www.smartick.es/blog/matematicas/multiplicaciones-y-divisiones/ejemplos-propiedad-distributiva/" target="_blank">Ejemplos de propiedad distributiva</a>
+                    <a href="https://es.khanacademy.org/math/pre-algebra/pre-algebra-arith-prop/pre-algebra-ditributive-property/a/distributive-property-explained" target="_blank">Explicación de la propiedad distributiva</a>
+                    <a href="https://arbolabc.com/recursos/propiedad-distributiva" target="_blank">¿Qué es la propiedad distributiva?</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Adición y sustracción -->
+        <div class="description-precalculo">
+            <h1>Adición y sustracción</h1>
+
+            <p>El número 0 es conocido como identidad aditiva, ya que para cualquier número real <em>a</em>, se cumple que <em>a + 0 = a</em>. Además, cada número real <em>a</em> tiene un negativo, <em>-a</em>, que satisface <em>a + (-a) = 0</em>. La sustracción se puede ver como una adición de un número negativo, dado que:</p><br>
+
+            <p><em>a - b = a + (-b)</em></p><br>
+
+            <img src="../assets/img/Fundamentos-img/Adición y sustracción.webp" alt="">
+            <br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Ejemplo 1: Adición con números negativos</h2>
+                <p>Resolver: 7 + (-5)</p>
+                <p class="operacion-Formula">
+                    7 + (-5) = 7 - 5 <br>
+                    7 - 5 = 2
+                </p>
+
+                <p>Al sumar un número positivo (7) y un número negativo (-5), se puede considerar como restar el valor absoluto de -5. Por lo tanto, 7 + (-5) es igual a 7 - 5, que da como resultado 2.</p>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Sustracción de un número negativo</h2>
+                <p>Resolver: 10 - (-4)</p>
+
+                <p class="operacion-Formula">
+                    10 - (-4) = 10 + 4 <br>
+                    10 + 4 = 14
+                </p>
+
+                <p>Al restar un número negativo (-4), esto es equivalente a sumar su valor positivo (4). Así, 10 - (-4) se transforma en 10 + 4, resultando en 14.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ozabYBtKz-c?si=olz-IKCLt130rCyZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://enciclopediaiberoamericana.com/numeros-negativos/" target="_blank">Números negativos</a>
+                    <a href="https://edu.gcfglobal.org/es/los-numeros/numeros-negativos/1/" target="_blank">Números negativos</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Multiplicació y división -->
+        <div class="description-precalculo">
+            <h1 class="multi-div">Multiplicación y división</h1>
+
+            <p>El número 1 es conocido como la identidad multiplicativa, ya que para cualquier número real <em>a</em>, se cumple que <em>a * 1 = a</em>. Además, todo número real <em>a</em> diferente de cero tiene un recíproco, <em>1/a</em>, que satisface <em>a * (1/a) = 1</em>. La división es la operación que deshace la multiplicación y se define como:</p><br>
+
+            <p><em>a ÷ b = a ⋅ (1/b)</em></p><br>
+
+            <p>Donde escribimos <em>a/b</em> como el cociente entre <em>a</em> y <em>b</em>, donde <em>a</em> es el numerador y <em>b</em> es el denominador (o divisor).</p><br>
+
+            <h2>PROPIEDADES DE LAS FRACCIONES</h2><br>
+
+            <img src="../assets/img/Fundamentos-img/Multiplicacion-y-division.webp" alt="">
+
+            <div class="container-Ejemplos">
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UildQorYmK0?si=Wfe8WnvSC4EIXqD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Recta Real -->
+        <div class="description-precalculo">
+            <h1>Recta Real</h1>
+
+            <p>La recta real es un modelo matemático que representa todos los números reales en una línea continua y unidimensional. Cada punto en esta línea corresponde a un número real único y viceversa.</p><br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                <h2>Ejemplo 1: Ubicación de números en la recta real</h2>
+                <p><strong>Problema:</strong> Coloca los números -3, 0, 2, y 5 en la recta real.</p><br>
+                <p>Dibuja una línea horizontal y marca un punto en el centro para representar el número 0.</p><br>
+                <p>Marca los números en la recta:</p><br>
+                    <p class="operacion-Formula">
+                        El número -3 se coloca a la izquierda de 0. <br>
+                        El número 0 se coloca en el centro. <br>
+                        El número 2 se coloca a la derecha de 0. <br>
+                        El número 5 se coloca más a la derecha que 2.
+                    </p>
+
+                <p><strong>Resultado:</strong> La recta real ahora tiene los números ubicados correctamente:</p><br>
+                <img src="../assets/img/Fundamentos-img/Ejercicio1-ConjuntosIntervalos.webp" alt="" class="ejer-conj-inte">
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2: Identificar la distancia entre dos números en la recta real</h2>
+                <p><strong>Problema:</strong> Encuentra la distancia entre los números -4 y 3 en la recta real.</p><br>
+                <p>Coloca los números en la recta real:</p><br>
+                <img src="../assets/img/Fundamentos-img/Ejercicio2-ConjuntosIntervalos.webp" alt="" class="ejer-conj-inte">
+
+                <p>Usa la fórmula de la distancia entre dos números reales:</p><br>
+                <p><em>Distancia = |a - b|</em>, donde <em>a</em> y <em>b</em> son los números.</p><br>
+                <p>Sustituye los valores:</p><br>
+                    <p class="operacion-Formula">
+                        <em>a = 3</em><br>
+                        <em>b = -4</em><br>
+                        <p>Distancia = |3 - (-4)| = |3 + 4| = |7| = 7</p><br>
+                    </p>
+                <p><strong>Resultado:</strong> La distancia entre -4 y 3 en la recta real es 7.</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ncFaIIVTNpo?si=u0aD2FUgryCIx3rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Conjuntos e Intervalos -->
+        <div class="description-precalculo">
+            <h1>Conjuntos e Intervalos</h1>
+            <h2>Conjunto</h2>
+
+            <p>Un conjunto es una colección de elementos distintos, denotados con letras mayúsculas y entre llaves. Ejemplo: A = {1, 2, 3}.</p><br>
+
+            <p><strong>Elementos únicos:</strong> no se repiten.</p>
+            <p><strong>Pertenencia:</strong> a ∈ A significa que a pertenece a A.</p>
+            <p><strong>Conjunto vacío:</strong> denotado como ∅.</p><br>
+
+            <h2>Intervalos</h2>
+
+            <p>Un intervalo es un subconjunto de números reales entre dos extremos.</p><br>
+
+            <p><strong>Abierto:</strong> (a, b) no incluye extremos.</p>
+            <p><strong>Cerrado:</strong> [a, b] incluye extremos.</p>
+            <p><strong>Semiabierto:</strong> [a, b) incluye a, pero no b.</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Conjuntos.webp" alt="" class="img-Conjuntos-Intervalos"><br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                <h2>Ejemplo 1</h2>
+                <p>Formar un conjunto B de números pares a partir de A = {1, 2, 3, 4, 5, 6}: B = {2, 4, 6}.</p><br>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2</h2>
+                <p>Determinar si 3 está en el intervalo [2, 5): 3 está en el intervalo.</p><br>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XA2oIbfy-o0?si=FjwV9FcURYwvCOux" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://jcastrom.jimdofree.com/matematica/matem%C3%A1tica-general/intervalos/" target="_blank">Conjuntos e intervalos</a>
+                    <a href="https://www.superprof.es/apuntes/escolar/matematicas/aritmetica/reales/intervalo-abierto-y-cerrado.html" target="_blank">Los intervalos: abierto y cerrado</a>
+                    <a href="https://es.slideshare.net/slideshow/trabajo-de-matemticas-conjunto-e-intervalos/256077785" target="_blank">Conjunto e Intervalos</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Valor Absoluto y Distancia -->
+        <div class="description-precalculo">
+            <h1>Valor Absoluto y Distancia</h1>
+            <h2>Valor Absoluto</h2>
+
+            <p>El valor absoluto de un número real es su distancia a cero en la recta real, denotado como |x|:</p><br>
+
+            <p>Si x ≥ 0, entonces |x| = x.</p>
+            <p>Si x < 0, entonces |x| = -x.</p><br>
+
+            <h3>Propiedades</h3>
+            <p>|x| ≥ 0 para cualquier x</p>
+            <p>|a · b| = |a| · |b|</p>
+            <p>|a + b| ≤ |a| + |b| (desigualdad triangular).</p><br>
+
+            <img src="../assets/img/Fundamentos-img/Valor Absoluto-img1.webp" alt="" class="img-vlr-absolute"><br>
+
+            <img src="../assets/img/Fundamentos-img/Valor Absoluto-img2.webp" alt="" class="img-vlr-absolute"> <br> <br>
+
+            <h2>Distancia</h2>
+
+            <p>La distancia entre dos puntos a y b en la recta real se calcula como:</p><br>
+
+            <p>Distancia = |a - b|</p><br>
+
+            <img src="../assets/img/Fundamentos-img/distancia-img1.webp" alt="" class="img-vlr-absolute"><br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1 -->
+                <h2>Ejemplo 1</h2>
+                <p>|-7| = 7 y |4| = 4</p><br>
+
+                <!-- Ejemplo 2 -->
+                <h2>Ejemplo 2</h2>
+                <p>Distancia entre 3 y -2: Distancia = |3 - (-2)| = |5| = 5.</p><br>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BjrDgr_6TI8?si=pUq4RU7Q4mIvqOql" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <h1>Páginas de ayuda</h1>
+                <div class="content-page-help">
+                    <a href="https://escholarium.educarex.es/coursePlayer/clases2.php?idclase=1329614&idcurso=17064" target="_blank">Valor absoluto. Distancia</a>
+
+                    <a href="https://3con14.biz/mat/tips/162-valor-absoluto-y-distancia.html" target="_blank">Valor absoluto y distancia</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+</body>
+</html>

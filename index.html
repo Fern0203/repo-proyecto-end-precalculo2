@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/umg.ico">
+    <link rel="stylesheet" href="./assets/styles/styles-Index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Proyecto Final Precalculo</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <img src="./assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="./index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./pages/Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./pages/Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./pages/Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./pages/Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./pages/Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./pages/Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./pages/Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./pages/Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./pages/Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./pages/Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./pages/Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./pages/Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./pages/Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./pages/informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./pages/Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./pages/Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./pages/Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./pages/Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./pages/La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./pages/Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./pages/La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./pages/La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula">
+                        <h1>
+                            Universidad Mariano Gálvez de Guatemala<br>
+                            Extensión Universitaria San Pedro Sacatepéquez, San Marcos<br>
+                        </h1>
+                        <h2>Ingeniería en Sistemas de la Información y Ciencias de la Computación</h2>
+                        <div class="datos-curso">
+                            <div class="fila">
+                                <h3>Curso: </h3>
+                                <p>Precálculo</p>
+                            </div>
+                            <div class="fila">
+                                <h3>Ing.: </h3>
+                                <p>Luis Fernando Gómez Molina</p>
+                            </div>
+                        </div>
+                        <h3>Segundo Semestre</h3>
+                        <h3>Sección "B"</h3>
+                        <br>
+                    </div>
+                    <!-- Imagen de la caratula -->
+                    <div class="container-logo-caratula">
+                        <img src="./assets/img/umg.webp" alt="Logo UMG">
+                    </div>
+                    <div class="container-presentacion">
+                        <h1>Proyecto Final - Temario de estudio</h1>
+                        <!-- Tabla de datos de integrantes de grupo -->
+                        <table class="tabla-datos-compañeros">
+                            <thead>
+                                <tr>
+                                    <th>Integrantes del grupo:</th>
+                                    <th>Carné:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Carlos Armando Lopez de León</td>
+                                    <td>0903-08-11993</td>
+                                </tr>
+                                <tr>
+                                    <td>Breyson Enihel Vargas Bartolón</td>
+                                    <td>0903-23-11160</td>
+                                </tr>
+                                <tr>
+                                    <td>Brallan José Danilo Marroquín López</td>
+                                    <td>0903-24-12842</td>
+                                </tr>
+                                <tr>
+                                    <td>Estuardo André Ochoa Jui</td>
+                                    <td>0903-23-11737</td>
+                                </tr>
+                                <tr>
+                                    <td>Emerson Desaylí Orozco Salvador</td>
+                                    <td>0903-24-16049</td>
+                                </tr>
+                                <tr>
+                                    <td>Fernando José Batz Marroquín</td>
+                                    <td>0903-23-463</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+        <!-- Curva para el header -->
+        <img class="curva-header" src="./assets/img/curva-header.svg">
+    </header>
+    <main class="container-main">
+        <div class="description-precalculo">
+            <h1>¿Que es precálculo?</h1>
+            <p>El precálculo es una rama de las matemáticas que sirve como preparación para el estudio del cálculo. Su objetivo principal es proporcionar las herramientas y conceptos fundamentales que se utilizarán en el cálculo, tales como funciones, álgebra avanzada, trigonometría, geometría analítica y conceptos de límites.</p>
+        </div>
+        <div class="container-browser">
+            <div class="margin-browser">
+                <input class="input-browser" type="text" name="browser" id="id-browser" onkeyup="filterTemas()" placeholder="¿Que tema desea buscar?">
+                <img src="./assets/img/icon-search.svg" alt="Icono-Lupa" id="search-browser">
+            </div>
+        </div>
+        <!-- FUNDAMENTOS -->
+        <section class="grup-temas">
+            <div class="content-titule-temas">
+                <h1>Fundamentos</h1>
+            </div>
+            <div class="content-box-tema">
+                    <a href="./pages/Numeros-Reales.html">Números Reales</a>
+                    <a href="./pages/Exponentes-Radicales.html">Exponentes y radicales</a>
+                    <a href="./pages/Expresiones-algebraicas.html">Expresiones Algebraicas</a>
+                    <a href="./pages/Expresiones racionales.html">Expresiones racionales</a>
+                    <a href="./pages/Ecuaciones.html">Ecuaciones</a>
+                    <a href="./pages/Modelado-con-ecuaciones.html">Modelado con ecuaciones</a>
+                    <a href="./pages/Desigualdades.html">Desigualdades</a>
+                    <a href="./pages/Geometria-coordenadas.html">Geometría de coordenadas</a>
+                    <a href="./pages/Calculadora-graficadora.html">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a>
+                    <a href="./pages/Rectas.html">Rectas</a>
+                    <a href="./pages/Modelos-con-el-uso-de-variaciones.html">Modelos con el uso de variaciones</a>
+            </div>
+        </section>
+        <!-- FUNCIONES -->
+        <section class="grup-temas">
+            <div class="content-titule-temas">
+                <h1>Funciones</h1>
+            </div>
+            <div class="content-box-tema">
+                <a href="./pages/Qué-es-una-función.html">¿Qué es una función?</a>
+                <a href="./pages/Graficas-de-funciones.html">Gráficas de funciones</a>
+                <a href="./pages/informacion-a-partir-de-la-grafica-de-una-funcion.html">Información a partir de la gráfica de una función</a>
+                <a href="./pages/Rapidez-de-cambio-promedio-de-una-funcion.html">Rapidez de cambio promedio de una función</a>
+                <a href="./pages/Transformacion-Funciones.html">Transformaciones de funciones</a>
+                <a href="./pages/Combinación-funciones.html">Combinación de funciones</a>
+                <a href="./pages/Funciones-uno-a-uno-y-sus-inversas.html">Funciones uno a uno y sus inversas</a>
+            </div>
+        </section>
+
+        <!-- FUNCIONES TRIGONOMÉTRICAS -->
+        <section class="grup-temas">
+            <div class="content-titule-temas">
+                <h1>Funciones trigonométricas: método del triángulo rectángulo</h1>
+            </div>
+            <div class="content-box-tema">
+                <a href="./pages/La-circunferencia-unitaria.html">La circunferencia unitaria</a>
+                <a href="./pages/Funciones-trigonométricas-inversas-triángulos-rectángulos.html">Funciones trigonométricas inversas y triángulos rectángulos</a>
+                <a href="./pages/La-Ley-de-Senos.html">La Ley de Senos</a>
+                <a href="./pages/La-Ley-de-Cosenos.html">La Ley de Cosenos</a>
+            </div>
+        </section>
+
+        <!-- Herramientas de ayuda -->
+        <section class="grup-temas" id="herramientas-ayuda">
+            <div class="content-titule-temas">
+                <h1>Herramientas de ayuda</h1>
+            </div>
+            <div class="content-box-tema">
+                <a href="https://www.desmos.com/?lang=es" target="_blank">Desmos (Web)</a>
+                <a href="https://www.geogebra.org/" target="_blank">Geogebra</a>
+                <a href="https://www.wolframalpha.com/" target="_blank">wolframalpha</a>
+                <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+            </div>
+        </section>
+
+    </main>
+    <script src="./assets/scripts/script-Index.js"></script>
+</body>
+</html>

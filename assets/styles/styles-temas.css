@@ -1,0 +1,220 @@
+.title-principal-header h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.container-Ejemplos {
+    width: 100%;
+}
+
+.container-Ejemplos h2 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 30px auto 20px;
+    text-align: left;
+}
+
+.container-Ejemplos p {
+    text-align: left;
+}
+
+.operacion-Formula {
+    padding: 1% 0 1% 5%;
+}
+
+/* Dimensiones de video YouTube */
+
+.content-videos-temas {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.content-videos-temas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Para pantallas grandes (computadora) */
+@media (min-width: 1024px) {
+    .content-videos-temas {
+        max-width: 40%; /* Ajusta el ancho máximo para pantallas grandes */
+        padding-bottom: 20%; /* Ajusta la relación de aspecto para reducir el alto */
+        margin: 0 auto; /* Centrar el video horizontalmente */
+    }
+}
+
+/* Para pantallas pequeñas (teléfonos) */
+@media (max-width: 767px) {
+    .content-videos-temas {
+        max-width: 100%; /* Ocupa todo el ancho en pantallas de teléfono */
+        padding-bottom: 56.25%; /* Mantén la relación de aspecto 16:9 */
+    }
+}
+
+.content-page-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    gap: 5px;
+}
+
+.content-page-help a {
+    border: 3px solid rgb(17, 2, 83);
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    color: #0000EE;
+    display: flex;
+    transition: transform .3s;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;      /* Centra el contenido verticalmente */
+    width: 100%; /* Asegura que las cajas se ajusten en pantallas pequeñas */
+    max-width: 300px;
+    margin: 15px;
+}
+
+.content-page-help a:hover {
+    transform: scale(1.05);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .content-page-help a {
+        padding: 10px; /* Ajustamos el padding para pantallas pequeñas */
+    }
+}
+
+hr {
+    margin: 5%;
+}
+
+.description-precalculo h2, h3, h4, p  {
+    text-align: left;
+}
+
+/* Responsive de imagenes */
+.description-precalculo img {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Ajusta el ancho máximo para pantallas grandes (computadoras) */
+    max-height: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/* Para pantallas de computadora */
+@media (min-width: 1024px) {
+    .description-precalculo img {
+        max-width: 230px;
+        max-height: 400px;
+    }
+
+    .description-precalculo .img-Conjuntos-Intervalos {
+        max-width: 470px;
+        max-height: 400px;
+    }
+
+    .description-precalculo .ejer-conj-inte {
+        max-width: 470px;
+        max-height: 400px;
+    }
+
+    .description-precalculo .img-vlr-absolute {
+        max-width: 470px;
+        max-height: 400px;
+    }
+
+    .description-precalculo .img-notacion-exponencial {
+        max-width: 490px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .img-Ex-Ne-Po {
+        max-width: 400px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .regla-Expone-img {
+        max-width: 180px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .img-not-cientifica {
+        max-width: 750px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .img-radic {
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .img-expo-racion {
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .fun-crec-decre {
+        max-width: 430px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .fun-max-min {
+        max-width: 520px;
+        max-height: 450px;
+    }
+
+    .description-precalculo .img-rapi-camb-prom {
+        max-width: 540px;
+        max-height: 450px;
+    }
+}
+
+/* Para pantallas pequeñas (teléfonos) */
+@media (max-width: 767px) {
+    .description-precalculo img {
+        max-width: 100%;
+        max-height: none;
+    }
+
+    .description-precalculo .multi-div {
+        font-size: 2rem;
+    }
+
+    /* Tamaño de fuentes */
+
+    .title-principal-header .respon-cel-title {
+        font-size: 2.5rem;
+    }
+
+    .title-principal-header .respon-cel-title-small {
+        font-size: 2rem;
+    }
+
+    .description-precalculo .title-racional-denomi {
+        font-size: 1.5rem;
+    }
+
+    .description-precalculo .form-racio-denomi {
+        font-size: .8rem;
+    }
+
+    /* Tabla Ecuaciones */
+    .description-precalculo .tabla-datos-compañeros td {
+        font-size: .48rem;
+    }
+
+    /* Dimensiones de imagenes */
+
+    .description-precalculo .dimen-image-cel {
+        max-width: 540px;
+        max-height: 450px;
+    }
+}

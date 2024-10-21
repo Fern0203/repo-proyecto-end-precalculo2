@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>La Ley de Cosenos</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1 class="respon-cel-title">
+                            La Ley de Cosenos
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="container-main">
+        <!-- La Ley de Cosenos -->
+        <div class="description-precalculo">
+
+            <p>La Ley de Cosenos es una generalización del Teorema de Pitágoras que se aplica a cualquier tipo de triángulo, ya sea rectángulo o no. Esta ley relaciona los lados de un triángulo con el coseno de uno de sus ángulos, lo que permite calcular un lado cuando se conocen los otros dos lados y el ángulo opuesto, o bien para encontrar un ángulo cuando se conocen los tres lados.</p><br>
+
+            <p>Se usa principalmente en triángulos oblicuángulos (triángulos que no tienen un ángulo recto) para resolver problemas de geometría y trigonometría. Es especialmente útil cuando no se dispone de un ángulo recto que permita aplicar el Teorema de Pitágoras.</p><br>
+
+            <h2>Fórmulas y teoremas</h2>
+            <p>La Ley de Cosenos se expresa de la siguiente manera para un triángulo con lados \( a \), \( b \), y \( c \), y ángulos \( A \), \( B \), y \( C \) opuestos a estos lados:</p><br>
+
+            <p>\[
+            c^2 = a^2 + b^2 - 2ab \cdot \cos(C)
+            \]</p>
+
+            <p>De manera similar, también se puede escribir para los otros lados:</p><br>
+
+            <p>\[
+            a^2 = b^2 + c^2 - 2bc \cdot \cos(A)
+            \]</p>
+
+            <p>\[
+            b^2 = a^2 + c^2 - 2ac \cdot \cos(B)
+            \]</p>
+
+            <h2>Demostración</h2>
+            <p>Para probar la Ley de Cosenos, ponga el triángulo ABC de modo que A esté en el origen, como se muestra en la Figura 2. Las coordenadas de los vértices A y B son \( (c, 0) \) y \( (b \cos A, b \sin A) \) respectivamente. (El lector debe comprobar que las coordenadas de estos puntos serán las mismas si trazamos el ángulo \( A \) como ángulo agudo.) Usando la Fórmula de Distancias, obtenemos:</p><br>
+
+            <img src="../assets/img/Funciones-trigonométricas-método-triángulo-rectángulo/Ley-cosenos/CosenoImg1.webp" alt="" class="img-expo-racion"><br>
+
+            <p class="form-racio-denomi">\[
+            a^2 = \left(b \cdot \cos(A) - c\right)^2 + \left(b \cdot \sin(A) - 0\right)^2
+            \]</p>
+
+            <p class="form-racio-denomi">\[
+            a^2 = b^2 \cos^2(A) - 2bc \cos(A) + c^2 + b^2 \sin^2(A)
+            \]</p>
+
+            <p class="form-racio-denomi">\[
+            a^2 = b^2(\cos^2(A) + \sin^2(A)) - 2bc \cos(A) + c^2
+            \]</p>
+
+            <p>\[
+            a^2 = b^2 + c^2 - 2bc \cos(A)
+            \]</p>
+
+            <p>Esto prueba la primera fórmula. Las otras dos fórmulas se obtienen de la misma forma si se coloca cada uno de los otros vértices del triángulo en el origen y se repite el argumento precedente.</p><br>
+
+            <h1>Ejemplo</h1>
+            <p>Un túnel se ha de construir por una montaña. Para estimar la longitud del túnel, un topógrafo hace las mediciones que se ven en la Figura 3. Use la información del topógrafo para aproximar la longitud del túnel.</p><br>
+
+            <img src="../assets/img/Funciones-trigonométricas-método-triángulo-rectángulo/Ley-cosenos/CosenoImg2.webp" alt="" class="img-not-cientifica"><br><br>
+            <img src="../assets/img/Funciones-trigonométricas-método-triángulo-rectángulo/Ley-cosenos/CosenoImg3.webp" alt="" class="img-expo-racion">
+
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

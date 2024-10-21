@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/umg.ico">
+    <link rel="stylesheet" href="../assets/styles/styles-Index.css">
+    <link rel="stylesheet" href="../assets/styles/styles-temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Desigualdades</title>
+</head>
+<body>
+    <!-- Portada de la página -->
+    <header class="container-header">
+        <div class="container-header-nav">
+            <!-- Lista de navegación -->
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="../index.html" class="nav__logo">
+                        <img src="../assets/img/umg.webp" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list nav__burger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg nav__close" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!-- Home -->
+                        <li> <a href="../index.html" class="nav__link">Home</a></li>
+
+                        <!-- Dropdown - Fundamentos -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Fundamentos<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Fundamentos -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Numeros-Reales.html" class="dropdown__link">Números reales</a></li>
+                                <li><a href="./Exponentes-Radicales.html" class="dropdown__link">Exponentes y radicales</a></li>
+                                <li><a href="./Expresiones-algebraicas.html" class="dropdown__link">Expresiones Algebraicas</a></li>
+                                <li><a href="./Expresiones racionales.html" class="dropdown__link">Expresiones racionales</a></li>
+                                <li><a href="./Ecuaciones.html" class="dropdown__link">Ecuaciones</a></li>
+                                <li><a href="./Modelado-con-ecuaciones.html" class="dropdown__link">Modelado con ecuaciones</a></li>
+                                <li><a href="./Desigualdades.html" class="dropdown__link">Desigualdades</a></li>
+                                <li><a href="./Geometria-coordenadas.html" class="dropdown__link">Geometría de coordenadas</a></li>
+                                <li><a href="./Calculadora-graficadora.html" class="dropdown__link">Calculadoras graficadoras; resolución gráfica de ecuaciones y desigualdades</a></li>
+                                <li><a href="./Rectas.html" class="dropdown__link">Rectas</a></li>
+                                <li><a href="./Modelos-con-el-uso-de-variaciones.html" class="dropdown__link">Modelado con el uso de variaciones</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones -->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenu Funciones -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./Qué-es-una-función.html" class="dropdown__link">¿Qué es una función?</a></li>
+                                <li><a href="./Graficas-de-funciones.html" class="dropdown__link">Gráfica de funciones</a></li>
+                                <li><a href="./informacion-a-partir-de-la-grafica-de-una-funcion.html" class="dropdown__link">Información a partir de la gráfica de una función</a></li>
+                                <li><a href="./Rapidez-de-cambio-promedio-de-una-funcion.html" class="dropdown__link">Rapidez de cambio promedio de una función</a></li>
+                                <li><a href="./Transformacion-Funciones.html" class="dropdown__link">Transformaciones de funciones</a></li>
+                                <li><a href="./Combinación-funciones.html" class="dropdown__link">Combinación de funciones</a></li>
+                                <li><a href="./Funciones-uno-a-uno-y-sus-inversas.html" class="dropdown__link">Funciones uno a uno y sus inversas</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown Funciones trigonométicas-->
+                        <li class="dropdown__item">
+                            <div class="nav__link">
+                                Funciones trigonométricas<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+                            <!-- Submenú Funciones trigonométricas -->
+                            <ul class="dropdown__menu">
+                                <li><a href="./La-circunferencia-unitaria.html" class="dropdown__link">La circunferencia unitaria</a></li>
+                                <li><a href="./Funciones-trigonométricas-inversas-triángulos-rectángulos.html" class="dropdown__link">Funciones trigonométricas inversas y triángulos rectángulos</a></li>
+                                <li><a href="./La-Ley-de-Senos.html" class="dropdown__link">La Ley de Senos</a></li>
+                                <li><a href="./La-Ley-de-Cosenos.html" class="dropdown__link">La Ley de Cosenos</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Herramientas -->
+                        <li> <a href="../index.html#herramientas-ayuda" class="nav__link" >Herramientas</a></li>
+                    </ul>
+                </div>
+             </nav>
+        </div>
+            <!-- Caratula de la portada -->
+            <!-- Texto de la portada -->
+            <div class="portada-all">
+                <div class="container-caratula">
+                    <div class="container-text-caratula title-principal-header">
+                        <h1 class="respon-cel-title">
+                            Desigualdades
+                        </h1>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main class="container-main">
+        <!-- Desigualdades -->
+        <div class="description-precalculo">
+            <h2>Desigualdades o Inecuaciones</h2>
+            <p>Una inecuación es una relación de desigualdad entre dos expresiones algebraicas en las que aparece una o más incógnitas. Resolver una inecuación consiste en encontrar todos los valores de la incógnita para los que se cumple la relación de desigualdad.</p> <br>
+
+            <img src="../assets/img/Fundamentos-img/Desigualdades/Reglas-desigualdades.webp" alt="" class="img-not-cientifica"><br><br>
+
+            <h2>Resolución de desigualdades lineales:</h2>
+
+            <p>Una desigualdad es lineal si cada término es constante o un múltiplo de la variable. Para resolver una desigualdad lineal, aislamos la variable en un lado del signo de desigualdad.</p><br>
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+            <!-- Ejemplo 1 -->
+                <p class="operacion-Formula">
+                    \(4 \leq 3x - 2 < 13\) &nbsp;&nbsp;&nbsp; (Desigualdad dada) <br>
+                    \(6 \leq 3x < 15\) &nbsp;&nbsp;&nbsp; (Suma 2 a ambos lados) <br>
+                    \(2 \leq x < 5\) &nbsp;&nbsp;&nbsp; (Dividir entre 3)
+                </p>
+            <p>Por lo tanto, el conjunto de solución es \([2, 5)\)</p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CkVXbU-PNRs?si=xZyY61pArltxPFNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Resolución de desigualdades no lineales -->
+        <div class="description-precalculo">
+            <h1 class="title-racional-denomi">Resolución de desigualdades no lineales</h1>
+
+            <p>Para resolver desigualdades que contengan cuadrados y otras potencias de la variable, usamos factorización, junto con el principio siguiente:</p><br>
+
+            <h2>El Signo de un Producto o Cociente</h2>
+            <p>Si un producto o un cociente tienen un número par de factores negativos, entonces su valor es positivo. Si un producto o un cociente tienen un número impar de factores negativos, entonces su valor es negativo.</p><br>
+
+            <h2>Guía para Resolver Desigualdades No Lineales</h2>
+            <p>1. Pase todos los términos a un lado. Si es necesario, reescriba la desigualdad de modo que todos los términos diferentes de cero aparezcan en un lado del signo de desigualdad. Si el lado diferente de cero de la desigualdad contiene cocientes, páselos a un común denominador.</p><br>
+
+            <p>2. Factorice. Factorice el lado diferente de cero de la desigualdad.</p><br>
+
+            <p>3. Encuentre los intervalos. Determine los valores para los cuales cada factor es cero. Estos números dividirán la recta real en intervalos. Haga una lista de los intervalos que están determinados por estos números.</p><br>
+
+            <p>4. Haga una tabla o diagrama. Use valores de prueba para hacer una tabla o diagrama de los signos de cada factor en cada intervalo. En el último renglón de la tabla determine el signo del producto (o cociente) de estos factores.</p><br>
+
+            <p>5. Resuelva. Determine la solución de la desigualdad a partir del último renglón de la tabla de signos. Asegúrese de verificar si la desigualdad queda satisfecha por algunos o todos los puntos extremos de los intervalos. (Esto puede ocurrir si la desigualdad contiene ≤ o ≥).</p><br>
+
+            <div class="container-Ejemplos">
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_uW4nVdCWzQ?si=si4HKZYRe8a0EiTr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Desigualdades con Valor Absoluto -->
+        <div class="description-precalculo">
+            <h1 class="title-racional-denomi">Desigualdades con Valor Absoluto</h1>
+
+            <p>Estas propiedades se pueden demostrar con el uso de la definición de valor absoluto. Para demostrar la <b>Propiedad 1</b>, observe que la desigualdad \( |x| < c \) dice que la distancia de \(x\) a 0 es menor que \(c\), y de la Figura 8 vemos que esto es verdadero si y sólo si \(x\) está entre \(-c\) y \(c\).</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/Desigualdades/Propiedad-desigualdad-valor-absoluto.webp" alt="" class="img-not-cientifica">
+
+            <h1>Ejemplos</h1>
+            <div class="container-Ejemplos">
+                <!-- Ejemplo 1  -->
+                <h2>Resuelva la desigualdad \( |x - 5| < 2 \)</h2>
+                    <p class="operacion-Formula">
+                        Es equivalente a: \( -2 < x - 5 < 2 \) &nbsp;&nbsp;&nbsp; <i>(Propiedad 1)</i><br>
+                        \( 3 < x < 7 \) &nbsp;&nbsp;&nbsp; <i>(Sumar 5)</i><br>
+                        El conjunto solución es el intervalo abierto \( (3, 7) \)
+                    </p>
+
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ogxr5wwVMAw?si=xh0BgvT_SHuu5GGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Simetría -->
+        <div class="description-precalculo">
+            <h1>Simetría</h1>
+
+            <p>Decimos que una figura es simétrica respecto a una recta cuando cada punto a un lado de esa recta tiene otro punto al otro lado y a la misma distancia de esa recta.</p>
+            <br>
+
+            <img src="../assets/img/Fundamentos-img/Desigualdades/Simetría.webp" alt="" class="img-not-cientifica">
+
+            <div class="container-Ejemplos">
+                <!-- Video de ayuda para el tema -->
+                <h1>Video de ayuda</h1>
+                <div class="content-videos-temas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5n84XZERWp8?si=KUaKzK1mJuD7TFRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </main>
+    <script src="../assets/scripts/script-Index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>
